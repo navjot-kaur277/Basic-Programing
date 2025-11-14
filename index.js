@@ -9,3 +9,12 @@ function isPrime(num) {
 // Example usage:
 console.log(isPrime(7)); // true
 console.log(isPrime(10)); // false
+
+
+function evenOdd(num) {
+    return num % 2 === 0;
+}
+
+// Example usage:
+console.log(evenOdd(4));  // true (even)
+console.log(evenOdd(7));  // false (odd)
